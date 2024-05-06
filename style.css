@@ -1,0 +1,47 @@
+body {
+  background-color: #eee;
+  background-image: url("./sky-4155408_1280.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+    width: calc(100% - 20px);
+}
+
+p {
+    padding: 2px;
+    border: 2px #444;
+}
+
+input {
+  width: calc(50% - 20px);
+  padding: 8px;
+  margin: 5px 1px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5%;
+  border: none;
+  border-radius: 5px;
+  background-color: #007b22;
+  color: #fff;
+  cursor: pointer;
+
+  align-items: auto;
+  box-shadow: 0 0 20px #007b22;
+}
+
+
+#weatherContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
