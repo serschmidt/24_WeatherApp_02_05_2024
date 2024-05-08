@@ -9,7 +9,7 @@ const API_UNITS = "metric"; //  standard, metric and imperial units
 const locationInput = document.getElementById("locationInput");
 const getWeatherButton = document.getElementById("getWeatherButton");
 
-//  getting a function  on Button cklick.
+//  getting a function  on Button click.
 getWeatherButton.onclick = () => {
   console.log("I was clicked!");
   const locationName = locationInput.value.trim();
@@ -32,7 +32,7 @@ function displayWeather(weather) {
   h2.textContent = `Your City is: ${weather.name}`;
   const button1 = document.createElement("button");
   button1.id = "buttonLocation";
-  button1.textContent = "Details of Locaton:";
+  button1.textContent = "Details of Location:";
   button1.onclick = () => detailedLocation(weather);
   h2.appendChild(button1);
 

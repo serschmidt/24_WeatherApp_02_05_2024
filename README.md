@@ -1,2 +1,4 @@
 Weather App.
-Data arer taken from https://openweathermap.org/
+to see the weather put the city you want to check.
+
+Data are taken from https://openweathermap.org/
