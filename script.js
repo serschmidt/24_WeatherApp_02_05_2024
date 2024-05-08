@@ -45,6 +45,7 @@ function displayWeather({
           <p>Sunset: ${sunsetTime.getHours()}:${sunsetTime.getMinutes()}:${sunsetTime.getSeconds()}</p>
         </div>
       `;
+    weatherContainer.classList.add("weatherContainer");
 }
 
 //  Objekt weiterleitung, aber ineffizient. Besser ist die Destrukturierung.

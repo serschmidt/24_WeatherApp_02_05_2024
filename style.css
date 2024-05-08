@@ -1,12 +1,19 @@
 body {
   background-color: #eee;
   /* background-image: url("./sky-4155408_1280.jpg"); */
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
+
+#container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 h1 {
-  text-align: center;
+  color: #333;
+  /* text-align: center; */
 }
 
 h2 {
@@ -18,10 +25,11 @@ p {
     border: 2px #444;
 }
 
-input {
+input[type="text"] {
   width: calc(50% - 20px);
   padding: 8px;
   margin: 5px 1px;
+  font-size: 18px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -31,16 +39,21 @@ button {
   margin: 5%;
   border: none;
   border-radius: 5px;
-  background-color: #007b22;
+  background-color: #007bff;
   color: #fff;
   cursor: pointer;
 
   align-items: auto;
-  box-shadow: 0 0 20px #007b22;
+  box-shadow: 0 0 20px #007bff;
 }
 
 
-#weatherContainer {
+.weatherContainer {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
